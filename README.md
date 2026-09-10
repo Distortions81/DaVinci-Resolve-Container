@@ -12,7 +12,7 @@
   <strong>Ubuntu · Debian · Fedora · Arch Linux · AMD · NVIDIA</strong>
 </p>
 
-Run **DaVinci Resolve Studio or Free 21.0.4** on Ubuntu, Fedora, Arch Linux,
+Run **DaVinci Resolve Studio or Free 21.1** on Ubuntu, Fedora, Arch Linux,
 Kubuntu, and other Linux desktops using a Docker-backed Distrobox container.
 The setup supports **AMD ROCm/OpenCL** and **NVIDIA CUDA/OpenCL** GPUs without
 replacing the graphics drivers on your host.
@@ -38,7 +38,7 @@ replacing the graphics drivers on your host.
 
 | Component          | Status                                                                |
 | ------------------ | --------------------------------------------------------------------- |
-| DaVinci Resolve    | Studio and Free 21.0.4 build 5                                        |
+| DaVinci Resolve    | Studio and Free 21.1 build 14                                         |
 | AMD                | ROCm/OpenCL; tested with Radeon RX 7900 XT on X11                     |
 | NVIDIA             | CUDA and OpenCL via NVIDIA Container Toolkit; hardware testing wanted |
 | Host distributions | Ubuntu/Debian, Fedora, Arch, and related distributions                |
@@ -79,7 +79,7 @@ You can also provide its exact location:
 
 ```bash
 RESOLVE_EDITION=Resolve \
-RESOLVE_ZIP="$HOME/Downloads/DaVinci_Resolve_21.0.4_Linux.zip" \
+RESOLVE_ZIP="$HOME/Downloads/DaVinci_Resolve_21.1_Linux.zip" \
 ./quickstart.sh
 ```
 

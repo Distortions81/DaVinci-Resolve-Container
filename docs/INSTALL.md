@@ -39,7 +39,7 @@ state because those are stored in the backend-specific isolated home directory.
 
 ## Resolve Requirements
 
-Blackmagic Design lists these minimum requirements for DaVinci Resolve 21.0.4
+Blackmagic Design lists these minimum requirements for DaVinci Resolve 21.1
 on Linux:
 
 - Rocky Linux 8.6.
@@ -193,7 +193,7 @@ Or pass an explicit path:
 
 ```bash
 RESOLVE_EDITION=Resolve \
-RESOLVE_ZIP="$HOME/Downloads/DaVinci_Resolve_21.0.4_Linux.zip" \
+RESOLVE_ZIP="$HOME/Downloads/DaVinci_Resolve_21.1_Linux.zip" \
 ./quickstart.sh
 ```
 

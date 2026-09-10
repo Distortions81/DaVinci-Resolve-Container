@@ -20,8 +20,8 @@ overwrite_resolve="${OVERWRITE_RESOLVE:-0}"
 launch_after_setup="${LAUNCH_AFTER_SETUP:-0}"
 resolve_edition="${RESOLVE_EDITION:-Studio}"
 
-supported_resolve_version="21.0.4"
-supported_resolve_build="5"
+supported_resolve_version="21.1"
+supported_resolve_build="14"
 supported_image="fedora:39"
 recommended_shm_bytes=$((1 * 1024 * 1024 * 1024))
 minimum_nvidia_driver="580.119.02"

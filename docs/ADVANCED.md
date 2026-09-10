@@ -47,8 +47,8 @@ requires personal registration.
 Default cache paths:
 
 ```text
-~/.cache/davinci-resolve-docker/DaVinci_Resolve_Studio_21.0.4_Linux.zip
-~/.cache/davinci-resolve-docker/DaVinci_Resolve_21.0.4_Linux.zip
+~/.cache/davinci-resolve-docker/DaVinci_Resolve_Studio_21.1_Linux.zip
+~/.cache/davinci-resolve-docker/DaVinci_Resolve_21.1_Linux.zip
 ```
 
 ## What Setup Changes
