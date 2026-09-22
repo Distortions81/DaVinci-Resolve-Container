@@ -38,6 +38,7 @@ resolve_download_id=""
 resolve_download_dir="${RESOLVE_DOWNLOAD_DIR:-${XDG_CACHE_HOME:-${HOME}/.cache}/davinci-resolve-docker}"
 
 launcher_path="${HOME}/.local/bin/davinci-resolve-docker"
+mcp_launcher_path="${HOME}/.local/bin/davinci-resolve-mcp"
 desktop_path=""
 desktop_name=""
 
@@ -664,6 +665,7 @@ install_launcher_files() {
 
   log "installing launcher to ${launcher_path}"
   install -D -m 0755 "${repo_dir}/bin/launch-resolve.sh" "${launcher_path}"
+  install -D -m 0755 "${repo_dir}/bin/launch-resolve-mcp.sh" "${mcp_launcher_path}"
   mkdir -p "$(dirname "${desktop_path}")"
   sed \
     -e "s|@LAUNCHER@|${launcher_path}|g" \

@@ -31,6 +31,26 @@ variables only when the standard setup does not match the host or workflow.
 Both backends share `/opt/resolve` by default but use separate preferences,
 project-library state, GPU caches, locks, and desktop entries.
 
+## DaVinci Resolve Studio MCP
+
+Resolve Studio 21.1 includes Blackmagic's MCP server for AI assistants. Setup
+installs `davinci-resolve-mcp` in `~/.local/bin`; it starts the bundled server
+inside the selected Resolve container, using the same isolated state as the
+running application.
+
+Register it with Codex by adding the following to `~/.codex/config.toml`, then
+restart Codex:
+
+```toml
+[mcp_servers.davinci_resolve]
+command = "/home/USER/.local/bin/davinci-resolve-mcp"
+startup_timeout_sec = 30
+```
+
+Do not use Resolve's **File > Setup AI Assistants** with this container setup.
+That command searches Resolve's isolated `HOME`, not the host profile where
+Codex stores its configuration. Open Resolve before calling its MCP tools.
+
 ## Installer Search Order
 
 Setup looks for the selected edition's archive in this order:
