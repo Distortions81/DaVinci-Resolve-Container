@@ -20,13 +20,13 @@ overwrite_resolve="${OVERWRITE_RESOLVE:-0}"
 launch_after_setup="${LAUNCH_AFTER_SETUP:-0}"
 resolve_edition="${RESOLVE_EDITION:-Studio}"
 
-supported_resolve_version="21.1.1"
+supported_resolve_version="21.1.2"
 supported_resolve_build="10"
 supported_image="fedora:39"
 recommended_shm_bytes=$((1 * 1024 * 1024 * 1024))
 minimum_nvidia_driver="580.119.02"
-studio_download_id="708182cd91f14d638def48d0d33c08c9"
-free_download_id="bc1eb63d0e51443892a43033cb039201"
+studio_download_id="89e321fac33449cd8b06401c4d88db64"
+free_download_id="8b9041dd175d4245b5a19a03a7700e77"
 
 resolve_version="${supported_resolve_version}"
 resolve_build="${supported_resolve_build}"

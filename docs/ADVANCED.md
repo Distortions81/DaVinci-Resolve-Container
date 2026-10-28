@@ -33,7 +33,7 @@ project-library state, GPU caches, locks, and desktop entries.
 
 ## DaVinci Resolve Studio MCP
 
-Resolve Studio 21.1.1 includes Blackmagic's MCP server for AI assistants. Setup
+Resolve Studio 21.1.2 includes Blackmagic's MCP server for AI assistants. Setup
 installs `davinci-resolve-mcp` in `~/.local/bin`; it starts the bundled server
 inside the selected Resolve container, using the same isolated state as the
 running application.
@@ -67,8 +67,8 @@ requires personal registration.
 Default cache paths:
 
 ```text
-~/.cache/davinci-resolve-docker/DaVinci_Resolve_Studio_21.1.1_Linux.zip
-~/.cache/davinci-resolve-docker/DaVinci_Resolve_21.1.1_Linux.zip
+~/.cache/davinci-resolve-docker/DaVinci_Resolve_Studio_21.1.2_Linux.zip
+~/.cache/davinci-resolve-docker/DaVinci_Resolve_21.1.2_Linux.zip
 ```
 
 ## What Setup Changes
