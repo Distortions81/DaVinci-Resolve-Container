@@ -49,6 +49,9 @@ Blackmagic Design's Linux requirements still apply, including a supported
 discrete GPU and sufficient RAM/VRAM. The installation guide covers complete
 distro-specific host, AMD ROCm/OpenCL, and NVIDIA Container Toolkit setup.
 
+See [Resolve 21.2 changes](docs/RELEASE-NOTES.md) for release highlights and
+the container update details.
+
 ## Quick Start
 
 Install Docker, Distrobox, `clinfo`, `curl`, and `unzip`, and make sure your GPU
